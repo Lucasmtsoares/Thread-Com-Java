@@ -14,7 +14,7 @@ processamento entre elas). O valor de π deve ser aproximado pela série de Leib
 
 Observações:
 - Devem ser calculados pelo menos 1 milhão (106) de termos da série
--- Use variáveis reais de dupla precisão (double) nos cálculos;
+** Use variáveis reais de dupla precisão (double) nos cálculos;
 ● O programa deve dividir o espaço de cálculo uniformemente entre as N threads; cada thread efetua uma soma parcial de forma autônoma;
 ● Lembrando que os resultados parciais de cada thread devem ser somados, pois o objetivo é chegar ao valor mais próximo do número π;
 ● Devem ser medidos os tempos de execução do programa para execuções com 1, 2, 4, 8, 16 e 32 threads (cenários experimentais). Para determinar o tempo de cada execução, você pode usar comando time do UNIX ou realizar a medição dentro do próprio programa;
